@@ -1,0 +1,64 @@
+:root {
+  --switch-width: 50px;
+  --switch-height: 30px;
+  --circle-size: 22px;
+  --circle-padding: 3px;
+  --circle-bg: #fff;
+  --circle-on-bg: #fff;
+  --switch-bg: #c9c9c9;
+  --switch-on-bg: #4c86d8;
+}
+
+.switch {
+  width: var(--switch-width);
+  height: var(--switch-height);
+  border-radius: 100px;
+  cursor: pointer;
+  background: var(--switch-bg);
+  display: flex;
+  position: relative;
+  align-items: center;
+  transition: all 0.5s;
+}
+
+.switch::before {
+  content: "";
+  display: block;
+  background: var(--circle-bg);
+  width: var(--circle-size);
+  height: var(--circle-size);
+  border-radius: 50%;
+  position: absolute;
+  transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  left: var(--circle-padding);
+  -webkit-transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  -moz-transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  -ms-transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  -o-transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.switch-input {
+  display: none;
+}
+
+.switch-input:checked + .switch {
+  background: var(--switch-on-bg);
+}
+
+.switch-input:checked + .switch::before {
+  background: var(--circle-on-bg);
+  left: calc(
+    (var(--switch-width) - var(--circle-size)) - var(--circle-padding)
+  );
+}
+
+body {
+  background: #191724;
+  font-family: "scandia";
+  color: #fff;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+}
