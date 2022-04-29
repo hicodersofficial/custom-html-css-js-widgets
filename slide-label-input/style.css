@@ -10,21 +10,19 @@ body {
 .input-container {
   width: 280px;
   position: relative;
-  display: grid;
-  align-items: center;
 }
 
 .label {
   position: absolute;
-  left: 5px;
-  top: 5px;
+  left: 10px;
+  top: 14px;
   transition: all 0.2s;
   padding: 0 2px;
   z-index: 1;
   color: #b3b3b3;
 }
 .text-input {
-  padding: 0.4rem;
+  padding: 0.8rem;
   width: 100%;
   height: 100%;
   border: 2px solid #2f2c45;
@@ -38,10 +36,11 @@ body {
 
 .label::before {
   content: "";
-  border-top: 2px solid #272530;
+  height: 5px;
+  background: #272530;
   position: absolute;
   left: 0px;
-  top: 0.6rem;
+  top: 10px;
   width: 100%;
   z-index: -1;
 }
@@ -51,8 +50,8 @@ body {
 }
 
 .text-input:focus + .label,
-.text-input:valid + .label {
-  top: -18px;
+.filled {
+  top: -10px;
   color: #7e4ccb;
   font-size: 14px;
 }
