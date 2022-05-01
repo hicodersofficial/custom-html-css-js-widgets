@@ -1,6 +1,6 @@
 # Custom Widgets
 
-Customize HTML components. _i.e_ Buttons, Checkboxes, Radio Buttons, Switches, etc.
+Collection of Customized Web UI components. _i.e_ Buttons, Checkboxes, Radio Buttons, Switches, etc.
 
 ## Widgets
 
