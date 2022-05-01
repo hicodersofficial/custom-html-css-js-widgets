@@ -4,13 +4,13 @@ Customize HTML components. _i.e_ Buttons, Checkboxes, Radio Buttons, Switches, e
 
 ## Widgets
 
-| Tables                           | See live                |
-| -------------------------------- | ----------------------- |
-| [Custom Switch][switch]          | [See Live][switch-live] |
-| [Radio Button][radio]            | [See Live][radio-live]  |
-| [Custom Checkbox][checkbox]      | Not There Now           |
-| [Ripple Button][ripple-btn]      | Not There Now           |
-| [Slide Label Input][slide-input] | Not There Now           |
+| Tables                           | See live                  |
+| -------------------------------- | ------------------------- |
+| [Custom Switch][switch]          | [See Live][switch-live]   |
+| [Radio Button][radio]            | [See Live][radio-live]    |
+| [Custom Checkbox][checkbox]      | [See Live][checkbox-live] |
+| [Ripple Button][ripple-btn]      | Not There Now             |
+| [Slide Label Input][slide-input] | Not There Now             |
 
 ### **Thank You!** 😍
 
@@ -19,5 +19,6 @@ Customize HTML components. _i.e_ Buttons, Checkboxes, Radio Buttons, Switches, e
 [radio]: https://github.com/hicodersofficial/custom-html-css-js-widgets/tree/main/radio
 [radio-live]: https://codepen.io/hicoders/pen/QWQLara
 [checkbox]: https://github.com/hicodersofficial/custom-html-css-js-widgets/tree/main/checkbox
+[checkbox-live]: https://codepen.io/hicoders/pen/MWQWrPG
 [ripple-btn]: https://github.com/hicodersofficial/custom-html-css-js-widgets/tree/main/ripple-button
 [slide-input]: https://github.com/hicodersofficial/custom-html-css-js-widgets/tree/main/slide-label-input
