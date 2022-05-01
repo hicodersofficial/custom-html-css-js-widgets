@@ -4,13 +4,13 @@ Customize HTML components. _i.e_ Buttons, Checkboxes, Radio Buttons, Switches, e
 
 ## Widgets
 
-| Tables                           | See live                  |
-| -------------------------------- | ------------------------- |
-| [Custom Switch][switch]          | [See Live][switch-live]   |
-| [Radio Button][radio]            | [See Live][radio-live]    |
-| [Custom Checkbox][checkbox]      | [See Live][checkbox-live] |
-| [Ripple Button][ripple-btn]      | Not There Now             |
-| [Slide Label Input][slide-input] | Not There Now             |
+| S.No | Repo                             | See live                  |
+| ---- | -------------------------------- | ------------------------- |
+| 01   | [Custom Switch][switch]          | [See Live][switch-live]   |
+| 02   | [Radio Button][radio]            | [See Live][radio-live]    |
+| 03   | [Custom Checkbox][checkbox]      | [See Live][checkbox-live] |
+| 04   | [Ripple Button][ripple-btn]      | Not There Now             |
+| 05   | [Slide Label Input][slide-input] | Not There Now             |
 
 ### **Thank You!** 😍
 
