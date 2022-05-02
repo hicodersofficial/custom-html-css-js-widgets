@@ -17,21 +17,19 @@ body {
 }
 .drop {
   border-radius: 10px;
-  border: 3px dashed #4b4b4b;
+  border: 3px dashed #aaaaaa;
   display: grid;
   width: 100%;
   place-content: center;
-  background: #edccff;
   padding: 2rem;
   box-sizing: border-box;
-  cursor: pointer;
   display: grid;
   place-items: center;
 }
 
 .active {
   border: 3px solid #4b4b4b;
-  background: #ffa2b5;
+  background: #edccff;
 }
 
 .drop .icon {

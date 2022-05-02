@@ -10,10 +10,6 @@ input.addEventListener("change", () => {
   upload();
 });
 
-drop.addEventListener("click", () => {
-  input.click();
-});
-
 drop.addEventListener("dragover", (e) => {
   e.preventDefault();
   text.innerHTML = "Release your mouse to drop.";
