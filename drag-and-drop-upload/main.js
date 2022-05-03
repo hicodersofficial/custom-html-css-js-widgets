@@ -29,9 +29,8 @@ drop.addEventListener("drop", (e) => {
   upload();
 });
 
+// Upload Logic
 function upload() {
-  // Upload Logic
-
   // fake Upload Logic
   let intervalCount = 0.25;
   progress.style.display = "block";
