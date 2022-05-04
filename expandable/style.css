@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  font-family: "Poppins", Arial, sans-serif;
+  display: grid;
+  place-content: center;
+  height: 100vh;
+  background: #1f2023;
+  color: #fff;
+}
+.check-input {
+  display: none;
+}
+.header-container {
+  display: flex;
+  align-items: center;
+}
+.header-container .header {
+  flex: 1;
+}
+.title {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  font-weight: 600;
+}
+.header-container .sub-title {
+  font-size: 13px;
+  color: #aaaaaa;
+}
+.header-container .icon {
+  width: 15px;
+  height: 2px;
+  background: #b6b6b6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header-container .icon::before {
+  content: "";
+  width: 2px;
+  height: 15px;
+  display: block;
+  background: #b6b6b6;
+  transition: all 0.2s;
+}
+.check-input:checked + label .header-container .icon::before {
+  content: "";
+  opacity: 0;
+}
+.expandable-container {
+  width: 450px;
+}
+.expandable .header-container {
+  background: #313237;
+  cursor: pointer;
+  padding: 1rem;
+}
+.expandable .content {
+  opacity: 0;
+  visibility: hidden;
+  padding: 1rem;
+  width: 100%;
+  background: #3a3a42;
+  box-sizing: border-box;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  transform: scaleY(0);
+  transform-origin: top;
+  height: 0;
+  transition: transform 0.2s;
+}
+.check-input:checked + label .content {
+  opacity: 1;
+  height: unset;
+  transform: scaleY(1);
+  visibility: visible;
+}
