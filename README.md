@@ -9,10 +9,10 @@ Collection of Customized Web UI components. _i.e_ Buttons, Checkboxes, Radio But
 | 01   | [Custom Switch][switch]            | [See Live][switch-live]   |
 | 02   | [Radio Button][radio]              | [See Live][radio-live]    |
 | 03   | [Custom Checkbox][checkbox]        | [See Live][checkbox-live] |
-| 04   | [Ripple Button][ripple-btn]        | Not There Now             |
+| 04   | [Ripple Button][ripple-btn]        | coming soon               |
 | 05   | [Slide Label Input][slide-input]   | [see Live][slide-i-live]  |
-| 06   | [Drag and Drop Upload][dnd-upload] | Not There Now             |
-| 07   | [Expandable][expandable]           | Not There Now             |
+| 06   | [Drag and Drop Upload][dnd-upload] | coming soon               |
+| 07   | [Expandable][expandable]           | coming soon               |
 
 ### **Thank You!** 😍
 
