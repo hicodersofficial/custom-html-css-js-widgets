@@ -16,7 +16,7 @@ Collection of Customized Web UI components. _i.e_ Buttons, Checkboxes, Radio But
 
 ## **Preview**
 
-![](.github/assets/preview.gif)
+<img src=".github/assets/preview.gif" alt="preview" width="2000" />
 
 ### **Thank You!** 😍
 
