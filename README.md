@@ -14,6 +14,10 @@ Collection of Customized Web UI components. _i.e_ Buttons, Checkboxes, Radio But
 | 06   | [Drag and Drop Upload][dnd-upload] | coming soon               |
 | 07   | [Expandable][expandable]           | [see Live][expd-live]     |
 
+## **Preview**
+
+![](.github/assets/preview.gif)
+
 ### **Thank You!** 😍
 
 [switch]: https://github.com/hicodersofficial/custom-html-css-js-widgets/tree/main/switch
