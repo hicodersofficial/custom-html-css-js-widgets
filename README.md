@@ -11,7 +11,7 @@ Collection of Customized Web UI components. _i.e_ Buttons, Checkboxes, Radio But
 | 03   | [Custom Checkbox][checkbox]        | [See Live][checkbox-live] |
 | 04   | [Ripple Button][ripple-btn]        | [see live][ripple-live]   |
 | 05   | [Slide Label Input][slide-input]   | [see Live][slide-i-live]  |
-| 06   | [Drag and Drop Upload][dnd-upload] | coming soon               |
+| 06   | [Drag and Drop Upload][dnd-upload] | [see live][dnd-live]      |
 | 07   | [Expandable][expandable]           | [see Live][expd-live]     |
 | 08   | [Tag Input][tag-input]             | coming soon               |
 
@@ -32,6 +32,7 @@ Collection of Customized Web UI components. _i.e_ Buttons, Checkboxes, Radio But
 [slide-input]: https://github.com/hicodersofficial/custom-html-css-js-widgets/tree/main/slide-label-input
 [slide-i-live]: https://codepen.io/hicoders/pen/xxYbyRN
 [dnd-upload]: https://github.com/hicodersofficial/custom-html-css-js-widgets/tree/main/drag-and-drop-upload
+[dnd-live]: https://codepen.io/hicoders/pen/oNEYXZZ
 [expandable]: https://github.com/hicodersofficial/custom-html-css-js-widgets/tree/main/expandable
 [expd-live]: https://codepen.io/hicoders/pen/bGLVQpY
 [tag-input]: https://github.com/hicodersofficial/custom-html-css-js-widgets/tree/main/tag-input-field
