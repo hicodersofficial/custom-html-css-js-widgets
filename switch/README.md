@@ -4,4 +4,4 @@
 
 ## Screenshot
 
-![](https://shots.codepen.io/hicoders/pen/GRyVjVy-512.jpg)
+![](../.github/assets/switch.png)
