@@ -14,6 +14,7 @@ Collection of Customized Web UI components. _i.e_ Buttons, Checkboxes, Radio But
 | 06   | [Drag and Drop Upload][dnd-upload] | [see live][dnd-live]      |
 | 07   | [Expandable][expandable]           | [see Live][expd-live]     |
 | 08   | [Tag Input][tag-input]             | coming soon               |
+| 09   | [Dropdown][dropdown]               | coming soon               |
 
 ## **Preview**
 
@@ -36,3 +37,4 @@ Collection of Customized Web UI components. _i.e_ Buttons, Checkboxes, Radio But
 [expandable]: https://github.com/hicodersofficial/custom-html-css-js-widgets/tree/main/expandable
 [expd-live]: https://codepen.io/hicoders/pen/bGLVQpY
 [tag-input]: https://github.com/hicodersofficial/custom-html-css-js-widgets/tree/main/tag-input-field
+[dropdown]: https://github.com/hicodersofficial/custom-html-css-js-widgets/tree/main/dropdown
