@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  font-family: "Poppins", Arial, sans-serif;
+  background: #1f2023;
+  color: #fff;
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+ul {
+  list-style: none;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  padding-inline-start: 0;
+}
+.dropdown {
+  position: relative;
+}
+.label {
+  cursor: pointer;
+  background: rgb(40, 40, 40);
+  padding: 0.8rem 1rem;
+  width: 100%;
+  display: block;
+  box-sizing: border-box;
+  transition: all 0.3s;
+}
+
+.items a {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  transition: all 0.2s;
+}
+.items a:hover {
+  border-left: 5px solid;
+  background: rgb(37, 37, 37);
+}
+
+.fa-brands,
+.fa-solid {
+  margin-right: 10px;
+}
+
+.items {
+  background: rgb(52, 52, 52);
+  opacity: 0;
+  visibility: hidden;
+  min-width: 100%;
+  height: 0;
+  position: absolute;
+  top: 48px;
+  transform-origin: top;
+  transform: scaleY(0);
+  transition: transform 0.3s;
+}
+
+.items::before {
+  content: "";
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  background: rgb(52, 52, 52);
+  transform: rotate(45deg);
+  top: -7px;
+  left: 20px;
+  z-index: -1;
+}
+
+.dropdown:hover > .items {
+  opacity: 1;
+  visibility: visible;
+  height: unset;
+  transform: scaleY(1);
+}
+
+.dropdown:hover > .label {
+  background: rgb(255, 115, 0);
+}
