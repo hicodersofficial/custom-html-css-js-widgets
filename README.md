@@ -4,17 +4,18 @@ Collection of Customized Web UI components. _i.e_ Buttons, Checkboxes, Radio But
 
 ## Widgets
 
-| S.No | Repo                               | See live                  |
-| ---- | ---------------------------------- | ------------------------- |
-| 01   | [Custom Switch][switch]            | [See Live][switch-live]   |
-| 02   | [Radio Button][radio]              | [See Live][radio-live]    |
-| 03   | [Custom Checkbox][checkbox]        | [See Live][checkbox-live] |
-| 04   | [Ripple Button][ripple-btn]        | [see live][ripple-live]   |
-| 05   | [Slide Label Input][slide-input]   | [see Live][slide-i-live]  |
-| 06   | [Drag and Drop Upload][dnd-upload] | [see live][dnd-live]      |
-| 07   | [Expandable][expandable]           | [see Live][expd-live]     |
-| 08   | [Tag Input][tag-input]             | coming soon               |
-| 09   | [Dropdown][dropdown]               | [see live][dropdown-live] |
+| S.No | Repo                               | See live                   |
+| ---- | ---------------------------------- | -------------------------- |
+| 01   | [Custom Switch][switch]            | [See Live][switch-live]    |
+| 02   | [Radio Button][radio]              | [See Live][radio-live]     |
+| 03   | [Custom Checkbox][checkbox]        | [See Live][checkbox-live]  |
+| 04   | [Ripple Button][ripple-btn]        | [see live][ripple-live]    |
+| 05   | [Slide Label Input][slide-input]   | [see Live][slide-i-live]   |
+| 06   | [Drag and Drop Upload][dnd-upload] | [see live][dnd-live]       |
+| 07   | [Expandable][expandable]           | [see Live][expd-live]      |
+| 08   | [Tag Input][tag-input]             | coming soon                |
+| 09   | [Dropdown][dropdown]               | [see live][dropdown-live]  |
+| 10   | [Hamburger][hamburger]             | [see live][hamburger-live] |
 
 ## **Preview**
 
@@ -39,3 +40,5 @@ Collection of Customized Web UI components. _i.e_ Buttons, Checkboxes, Radio But
 [tag-input]: https://github.com/hicodersofficial/custom-html-css-js-widgets/tree/main/tag-input-field
 [dropdown]: https://github.com/hicodersofficial/custom-html-css-js-widgets/tree/main/dropdown
 [dropdown-live]: https://codepen.io/hicoders/pen/OJQpbjj
+[hamburger]: https://github.com/hicodersofficial/custom-html-css-js-widgets/tree/main/hamburger
+[hamburger-live]: https://codepen.io/hicoders/pen/PoQmBJR
