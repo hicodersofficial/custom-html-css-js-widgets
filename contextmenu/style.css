@@ -1,0 +1,59 @@
+body {
+  background: url(https://9to5mac.com/wp-content/uploads/sites/6/2021/10/Chroma-Red-Dark.jpg?);
+  background-size: cover;
+  font-family: "poppins", sans-serif;
+  position: relative;
+  height: 100vh;
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  padding-inline-start: 0;
+}
+.contextmenu {
+  box-shadow: 0 0 36px 1px #00000033;
+  border-radius: 10px;
+  border: 1px solid #a6a6a628;
+  background-color: #9191912d;
+  backdrop-filter: blur(20px);
+  width: 250px;
+  position: absolute;
+  opacity: 0;
+  transform: scale(0);
+  transition: transform 0.2s, opacity 0.1s;
+}
+
+.items li {
+  padding: 2px 5px;
+}
+
+.items:first-child {
+  margin-top: 3px;
+}
+.items:last-child {
+  margin-bottom: 3px;
+}
+.items a {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.3rem 1rem;
+  text-decoration: none;
+  transition: all 0.2s;
+  font-weight: 300;
+  font-size: 14px;
+  border-radius: 5px;
+}
+.items a:hover {
+  background-color: #91919142;
+}
+
+.fa-brands,
+.fa-solid {
+  margin-right: 10px;
+  color: #aaa;
+}
