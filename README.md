@@ -18,6 +18,7 @@ Collection of Customized Web UI components. _i.e_ Buttons, Checkboxes, Radio But
 | 10   | [Hamburger][hamburger]             | [see live][hamburger-live] |
 | 11   | [ContextMenu][ctxmenu]             | [see live][ctxmenu-live]   |
 | 12   | [OTP/PIN Filed][otp-f]             | [see live][otp-f-live]     |
+| 13   | [Slide Hover Effect][she]          | [see live][she-live]       |
 
 ## **Preview**
 
@@ -49,3 +50,5 @@ Collection of Customized Web UI components. _i.e_ Buttons, Checkboxes, Radio But
 [ctxmenu-live]: https://codepen.io/hicoders/pen/LYQQNrL
 [otp-f]: https://github.com/hicodersofficial/custom-html-css-js-widgets/tree/main/otp-field
 [otp-f-live]: https://codepen.io/hicoders/pen/oNEqJGO
+[she]: https://github.com/hicodersofficial/custom-html-css-js-widgets/tree/main/slide-button
+[she-live]: https://codepen.io/hicoders/pen/MWQzmgY

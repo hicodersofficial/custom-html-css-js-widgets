@@ -1,0 +1,43 @@
+body {
+  font-family: "Poppins", sans-serif;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  background: #282a36;
+}
+
+button {
+  padding: 18px 30px;
+  font-size: 16px;
+  border: none;
+  position: relative;
+  cursor: pointer;
+  box-sizing: border-box;
+  overflow: hidden;
+  background: #ff4655;
+  border-radius: 0;
+  min-width: 200px;
+  color: #fff;
+  z-index: 0;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+button::before {
+  content: "";
+  position: absolute;
+  display: block;
+  top: 0;
+  left: -50px;
+  width: 150%;
+  height: 100%;
+  background: #14202d;
+  transition: all 0.7s ease-in-out;
+  z-index: -1;
+  transform: translateX(-300px) skew(-20deg);
+}
+
+button:hover::before {
+  transform: translateX(0px) skew(-20deg);
+}
