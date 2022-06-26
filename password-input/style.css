@@ -30,6 +30,7 @@ body {
   border: 1px solid #215164;
   border-radius: 4px;
   color: #fff;
+  transition: all 0.2s;
   font-size: 16px;
 }
 
@@ -37,6 +38,10 @@ body {
   color: #346a80;
 }
 
+.input-group input:focus {
+  border: 1px solid #55b7dd;
+  box-shadow: 0px 0px 2px 2px #55b7dd34;
+}
 .input-group i {
   position: absolute;
   right: 10px;
