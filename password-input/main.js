@@ -1,5 +1,6 @@
 const passInput = document.querySelector(".input-group input");
-const toggleIcon = document.querySelector(".input-group i");
+const toggleIcon = document.querySelector(".input-group .toggle");
+const ripple = document.querySelector(".input-group .ripple");
 const percentBar = document.querySelector(".strength-percent span");
 const passLabel = document.querySelector(".strength-label");
 
@@ -35,11 +36,29 @@ function togglePassInput(e) {
   const type = passInput.getAttribute("type");
   if (type === "password") {
     passInput.setAttribute("type", "text");
-    toggleIcon.classList.remove("fa-eye-slash");
-    toggleIcon.classList.add("fa-eye");
+    toggleIcon.innerHTML = "💀";
+    ripple.style.cssText = `
+    border-radius: 4px;
+    width: 100%;
+    height: 100%;
+    right: 0;
+    z-index: -1;
+    `;
+    passInput.style.color = "#000";
+    passInput.style.background = "transparent";
+    toggleIcon.style.fontSize = "27px";
   } else {
     passInput.setAttribute("type", "password");
-    toggleIcon.classList.remove("fa-eye");
-    toggleIcon.classList.add("fa-eye-slash");
+    toggleIcon.innerHTML = "☠️";
+    toggleIcon.style.fontSize = "25px";
+    ripple.style.cssText = `
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    right: 10px;
+     z-index: 1;
+    `;
+    passInput.style.color = "#fff";
+    passInput.style.background = "#112d37";
   }
 }
