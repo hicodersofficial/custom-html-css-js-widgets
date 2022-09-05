@@ -2,8 +2,8 @@ const inputs = document.querySelectorAll(".otp-field input");
 
 inputs.forEach((input, index) => {
   input.dataset.index = index;
-  input.addEventListener("paste", handleOnPasteOtp);
   input.addEventListener("keyup", handleOtp);
+  input.addEventListener("paste", handleOnPasteOtp);
 });
 
 function handleOtp(e) {
@@ -14,11 +14,12 @@ function handleOtp(e) {
    */
   const input = e.target;
   let value = input.value;
+  let isValidInput = value.match(/[0-9a-z]/gi);
   input.value = "";
-  input.value = value ? value[0] : "";
+  input.value = isValidInput ? value[0] : "";
 
   let fieldIndex = input.dataset.index;
-  if (value.length > 0 && fieldIndex < inputs.length - 1) {
+  if (fieldIndex < inputs.length - 1 && isValidInput) {
     input.nextElementSibling.focus();
   }
 
@@ -26,7 +27,7 @@ function handleOtp(e) {
     input.previousElementSibling.focus();
   }
 
-  if (fieldIndex == inputs.length - 1) {
+  if (fieldIndex == inputs.length - 1 && isValidInput) {
     submit();
   }
 }
