@@ -21,6 +21,7 @@ Collection of Customized Web UI components. _i.e_ Buttons, Checkboxes, Radio But
 | 13   | [Slide Hover Effect][she]          | [see live][she-live]       |
 | 14   | [Shine Hover Effect][shine]        | [see live][shine-live]     |
 | 15   | [Password Input][pass-input]       | [see live][pass-live]      |
+| 16   | [Search Bar][search-bar]           | [see live][search-live]    |
 
 ## **Preview**
 
@@ -58,3 +59,5 @@ Collection of Customized Web UI components. _i.e_ Buttons, Checkboxes, Radio But
 [shine-live]: https://codepen.io/hicoders/pen/mdXvGJy
 [pass-input]: https://github.com/hicodersofficial/custom-html-css-js-widgets/tree/main/password-input
 [pass-live]: https://codepen.io/hicoders/pen/wvmwzoE
+[search-bar]: https://github.com/hicodersofficial/custom-html-css-js-widgets/tree/main/search-bar
+[search-live]: https://codepen.io/hicoders/pen/gOKmWRG
