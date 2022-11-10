@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: grid;
+  place-content: center;
+  height: 100vh;
+  background: #000000;
+}
+
+input {
+  font-family: "Space Grotesk";
+}
+.container {
+  display: inline-block;
+}
+.row {
+  display: flex;
+  background: #000;
+  border-radius: 100px;
+  border: 1px solid #3b3b3b;
+}
+.row input {
+  background: transparent;
+  color: #fff;
+  font-weight: 600;
+  font-size: 15px;
+  border: none;
+  padding: 0;
+  width: 0;
+  outline: none;
+  transition: all 0.2s;
+}
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 45px;
+  height: 45px;
+  margin: 7px;
+  border-radius: 50%;
+  background: #ffffff;
+}
+.icon i {
+  position: absolute;
+  color: #222222;
+}
+.icon .fa-xmark {
+  opacity: 0;
+}
+
+.container:hover input,
+input:focus,
+input:not(:placeholder-shown) {
+  width: 250px;
+  padding: 1rem;
+  padding-left: 1.5rem;
+}
+
+.container:hover .fa-xmark,
+input:focus ~ .icon .fa-xmark,
+input:not(:placeholder-shown) ~ .icon .fa-xmark {
+  opacity: 1;
+  font-size: 20px;
+}
+
+.container:hover .fa-search,
+input:focus ~ .icon .fa-search,
+input:not(:placeholder-shown) ~ .icon .fa-search {
+  opacity: 0;
+}
